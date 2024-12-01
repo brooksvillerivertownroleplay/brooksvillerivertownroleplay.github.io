@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, red, green);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: lightgray;
+}
+
+footer {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+}
